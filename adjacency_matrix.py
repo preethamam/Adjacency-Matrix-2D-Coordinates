@@ -32,7 +32,7 @@ def adjacency_matrix(points, obs_idx_list):
     adj_mat_sparse = []
 
     def par_adjacency(i, points, obs_idx_list):      
-        idxs = point_tree.query_ball_point(points[i], GRID_SIZE * sqrt(2.0))
+        idxs = point_tree.query_ball_point(points[i], grid_size * sqrt(2.0))
         for j in idxs:
             if i!=j and not (i in obs_idx_list or j in obs_idx_list):
                 adj_mat_sparse.append([dist(points[i], points[j]), i, j])
