@@ -10,14 +10,14 @@ from tqdm import tqdm
 import multiprocessing
 
 # Grid cell size
-GRID_SIZE = 1
+grid_size = 1
 
 # Graph type
 graph_type = 'directed'
 
 # Create two 1D arrays of values
-x = np.arange(0, 4, GRID_SIZE)
-y = np.arange(0, 4, GRID_SIZE)
+x = np.arange(0, 4, grid_size)
+y = np.arange(0, 4, grid_size)
 
 # Create a 2D grid of coordinates
 X, Y = np.meshgrid(x, y)
