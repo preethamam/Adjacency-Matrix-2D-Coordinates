@@ -1,12 +1,11 @@
-# Non-rectangular adjacency weighted adjacency matrix
-[![View Weighted adjacency matrix of an image using energy function on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/108934-weighted-adjacency-matrix-of-an-image-using-energy-function) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=preethamam/Adjacency-Matrix-2D-Coordinates)
+# Description
 Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non-rectangular grids based on the 8-noded nearest neigbors image.
 
 # Graphs table
 | Type | Images |
 | --- | --- |
-| 8-noded unidirection |  |
-| 8-noded bidirection | |
+| 8-noded undirected | <img width="541" alt="Screenshot 2024-03-29 at 2 43 12 AM" src="https://github.com/preethamam/Adjacency-Matrix-2D-Coordinates/assets/28588878/2b58a372-47f3-4312-871a-33354eb196e4"> |
+| 8-noded directed | <img width="542" alt="Screenshot 2024-03-29 at 2 41 09 AM" src="https://github.com/preethamam/Adjacency-Matrix-2D-Coordinates/assets/28588878/b24eeef9-a3e8-4236-b28e-56e19c333b44"> |
 
 # Requirements
 Python <br />
