@@ -12,6 +12,9 @@ import multiprocessing
 # Grid cell size
 GRID_SIZE = 1
 
+# Graph type
+graph_type = 'directed'
+
 # Create two 1D arrays of values
 x = np.arange(0, 4, GRID_SIZE)
 y = np.arange(0, 4, GRID_SIZE)
@@ -49,7 +52,12 @@ def adjacency_matrix(points, obs_idx_list):
 adj_mat = adjacency_matrix(points, obs_idx_list)
 
 # Graph (G)
-G = nx.from_scipy_sparse_array(adj_mat, parallel_edges=False, create_using=nx.DiGraph(), edge_attribute='weight')
+if graph_type == 'undirected':
+    gtype = nx.Graph()
+else:
+    gtype = nx.DiGraph()
+    
+G = nx.from_scipy_sparse_array(adj_mat, parallel_edges=False, create_using=gtype, edge_attribute='weight')
 
 # Find the shortest path
 short_path = nx.shortest_path(G, source=0, target=14, weight='weight', method='dijkstra')
