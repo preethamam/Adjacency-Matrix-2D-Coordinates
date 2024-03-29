@@ -8,7 +8,22 @@ Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non
 | 8-noded directed | <img width="542" alt="Screenshot 2024-03-29 at 2 41 09 AM" src="https://github.com/preethamam/Adjacency-Matrix-2D-Coordinates/assets/28588878/b24eeef9-a3e8-4236-b28e-56e19c333b44"> |
 
 # Requirements
-Python <br />
+```python
+Python
+descartes==1.1.0
+geopandas==0.14.3
+joblib==1.3.2
+matplotlib==3.8.3
+mpl_interactions==0.24.1
+mpl_point_clicker==0.4.1
+networkx==3.2.1
+numpy==1.23.1
+numpy==1.22.4
+pandas==1.4.3
+scipy==1.7.3
+Shapely==2.0.3
+tqdm==4.64.0
+```
 
 # Run command
 Please use the `adjacency_matrix.py` to run the program.
