@@ -1,5 +1,5 @@
 # Description
-Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non-rectangular grids based on the 8-noded nearest neigbors image. Each coordinate represents a node in a graph at that position which is connected to other nodes only if they are adjacent in the x or y direction, diagonals are also included.
+Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non-rectangular grids based on the 8-noded nearest neigbors image. Each coordinate represents a node in a graph at that position which is connected to other nodes if they are adjacent in the x or y direction, and diagonals are also included.
 
 # Graphs table
 | Type | Images |
