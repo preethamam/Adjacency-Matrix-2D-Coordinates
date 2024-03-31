@@ -9,20 +9,13 @@ Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non
 
 # Requirements
 ```python
-Python
-descartes==1.1.0
-geopandas==0.14.3
+Python > 3.10.13
 joblib==1.3.2
 matplotlib==3.8.3
-mpl_interactions==0.24.1
-mpl_point_clicker==0.4.1
 networkx==3.2.1
-numpy==1.23.1
-numpy==1.22.4
-pandas==1.4.3
-scipy==1.7.3
-Shapely==2.0.3
-tqdm==4.64.0
+numpy==1.26.4
+scipy==1.12.0
+tqdm==4.66.2
 ```
 
 # Run command
