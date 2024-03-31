@@ -13,12 +13,6 @@ Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non
 pip install -r requirements.txt
 ```
 
-# Usage
-```shell
-cd /path/to/the/Adjaceny Matrix folder
-python adjacency_matrix.py
-```
-
 # Requirements
 ```python
 Python >= 3.10.13
@@ -28,6 +22,12 @@ networkx==3.2.1
 numpy==1.26.4
 scipy==1.12.0
 tqdm==4.66.2
+```
+
+# Usage
+```shell
+cd /path/to/the/Adjaceny Matrix folder
+python adjacency_matrix.py
 ```
 
 # Run command
