@@ -7,9 +7,21 @@ Creates a weighted adjacency matrix for any 2D coordinates of rectangular or non
 | 8-noded undirected | <img width="541" alt="Screenshot 2024-03-29 at 2 43 12 AM" src="https://github.com/preethamam/Adjacency-Matrix-2D-Coordinates/assets/28588878/2b58a372-47f3-4312-871a-33354eb196e4"> |
 | 8-noded directed | <img width="542" alt="Screenshot 2024-03-29 at 2 41 09 AM" src="https://github.com/preethamam/Adjacency-Matrix-2D-Coordinates/assets/28588878/b24eeef9-a3e8-4236-b28e-56e19c333b44"> |
 
+
+# Installation
+```shell
+pip install -r requirements.txt
+```
+
+# Usage
+```shell
+cd /path/to/the/Adjaceny Matrix folder
+python adjacency_matrix.py
+```
+
 # Requirements
 ```python
-Python > 3.10.13
+Python >= 3.10.13
 joblib==1.3.2
 matplotlib==3.8.3
 networkx==3.2.1
